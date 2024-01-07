@@ -1,0 +1,14 @@
+#Part 1
+import math
+Total_Amount_Meal = float(input()) # Step 1
+Percent_Sales_Tax = .07 # Step 2
+Percent_Tip = .18 # Step 3
+Total_Amount_Meal_Plus_Percent_Sales_Tax = float(round(Total_Amount_Meal * Percent_Sales_Tax,1)) # Step 4
+Total_Amount_Meal_Plus_Percent_Tip = float(round(Total_Amount_Meal * Percent_Tip,1)) # Step 5
+Total_Amount_Meal_Plus_Tip_Plus_Sales_Tax = float(round(Total_Amount_Meal + Total_Amount_Meal_Plus_Percent_Tip + Total_Amount_Meal_Plus_Percent_Sales_Tax,1)) # Step 6 
+print('The Total Amount of the Taxes is', Total_Amount_Meal_Plus_Percent_Sales_Tax) # Step 7
+print('The Total Amount of the Tip is', Total_Amount_Meal_Plus_Percent_Tip) # Step 8
+print('The Total Amount of the Meal + Tip + Taxes is', Total_Amount_Meal_Plus_Tip_Plus_Sales_Tax) # Step 9
+
+
+#Part 2
