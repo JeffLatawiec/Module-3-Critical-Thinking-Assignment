@@ -12,3 +12,7 @@ print('The Total Amount of the Meal + Tip + Taxes is', Total_Amount_Meal_Plus_Ti
 
 
 #Part 2
+Time_Now = int(input()) # Step 1
+Num_Hours_Alarm = int(input()) # Step 2
+Alarm_Sound = (Time_Now + Num_Hours_Alarm) % 24 # Step 3
+print(Alarm_Sound) # Step 4
